@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    Font-size: 16px;
+}
+
+header {
+    height: 850px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img {
+    width: 60px;
+    transform:rotate(90deg);    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    padding: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color:  hsl(216, 30%, 68%);
+}
+
+ul li a:focus{
+    color: hsl(256, 26%, 20%);
+}
+
+ul li a:hover{
+    color:hsl(0, 0%, 98%);
+    background-color:hsl(270, 9%, 17%);
+    padding: 15px;
+}
+ 
+
+.head{
+    color: hsl(0, 0%, 98%);
+    height: 200px;
+    position: relative;
+     
+}
+
+.head .part-1{
+    background-color: hsl(256, 26%, 20%) ;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.head .part-1 img{
+    height: 90%; 
+    z-index: 2;
+
+}
+
+.head .part-1 .text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.inner-text{
+    margin-top: 20px ;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 50px;   
+}
+
+hr{
+    width: 100px;
+    color:  hsl(216, 30%, 68%);
+    margin: 50px 0px;        
+}
+
+.head .part-1 .text h1{
+    font-size: 50px;
+}
+
+.text p{
+    padding: 10px 0px;   
+}
+
+.text a{
+    text-decoration: none;
+    color: hsl(0, 0%, 98%); 
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.text a:hover{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%)  ;
+    padding: 10px 15px; 
+}
+
+.part-2 .image-1{
+    position: absolute;
+    left: 0%;
+    top: 180%;
+    z-index: 1;   
+}
+
+.part-2 .image-2{
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    z-index: 1;
+}
+
+main{
+    height: 800px;
+}
+
+.text-main{
+    width: 40%;
+    margin-left: 80px;
+    padding-left: 80px;
+    height: 150px;   
+}
+
+.text-main h1{
+    color:hsl(270, 9%, 17%); 
+    font-size: 45px;       
+}
+
+.text-main hr{
+    width: 100px;
+    color:  hsl(216, 30%, 68%);   
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-left: 80px;
+    padding-left: 80px;
+    height: 300px;
+} 
+
+.boxes h2{
+    padding: 20px 0;
+}
+
+.find-more{
+    background-color: hsl(256, 26%, 20%)  ;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 160px;
+    position: relative;
+}
+
+.find-more h1{
+    color: hsl(0, 0%, 98%); 
+    font-size: 45px; 
+    padding: 60px;
+     
+}
+
+.find-more a{
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    position: absolute;
+    top: 45%;
+    right: 8%;
+    font-size: 20px;
+}
+
+.find-more a:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%) ;
+    padding: 10px 25px;
+    
+}
+
+footer{
+    background-color:  hsl(0, 0%, 98%); 
+    position: relative; 
+    color: hsl(256, 26%, 20%)  ;
+}
+
+.foot-1{
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    margin-left: 80px;
+    padding-left: 80px;
+    position: absolute;
+    top: 15%;
+}
+
+footer hr {
+    width: 1080px;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+}
+
+.foot-2{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: -60px; 
+}
+ 
+.foot-2 ul li{
+    list-style: none;
+    padding: 5px;
+    margin-left: 40px;
+    padding-left: 30px;
+}
+
+h3{
+    padding-bottom: 20px ;
+}
